@@ -38,3 +38,63 @@
             </div>
         </div>
     </section>
+    <section class="skills">
+        <div class="container">
+            <h2 id="skills">skills</h2>
+            <ul>
+                <li>HTML
+                </li>
+                <li>CSS
+                </li>
+                <li>Bootstrap
+                </li>
+
+                    
+                
+            </ul>
+            </div>
+    </section>
+     <section class="code">
+         <div class="container">
+            <h2 id="code">code example</h2>
+            <div class="code_wrapper">
+             <div class="code_example">
+                <div class="code_example_title">Palindrome</div>
+             <pre class="code_js">
+                function isPalindrome(line) {
+                    let toS = line.toString();
+                    let splitted = toS.split('');
+                    let reverse = [];
+                    for(let i = splitted.length -1; i >= 0; i--){
+                        reverse.push(splitted[i]); 
+                    }
+                    let toJoin = reverse.join('');
+                    if (toJoin == toS){
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+             </pre>
+            </div>
+            <div class="code_example">
+                <div class="code_example_title">factorial</div>
+                <pre class="code_js">
+                    function factorial(n){
+                    {
+                         throw new RangeError();
+                          }else if( n == 0 || n == 1 ){
+                         return 1;
+                         }else{
+                            for(let i = n - 1 ; i >= 1; i--){
+                                n = n * i;
+                                
+                            }
+                            return n;  
+                         }
+                        }</pre>
+            </div>
+            </div>
+         </div>
+     </section>
