@@ -44,3 +44,9 @@ function isPalindrome(line) {
     }
 }
 ```
+## Educaton
+### Bachelore of Engineering and Technology -- IITU(2015-2019)
+
+
+## English
+took English courses at Elemetary - Intermediate levels. I was a volunteer at the 2017 Winter Universiade and practiced English with foreign athletes there
