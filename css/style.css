@@ -52,7 +52,7 @@ nav{
     text-align: center;
     
 }
-h2{
+h2,h3,h4,h5,h6{
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     text-align: center;
@@ -116,4 +116,8 @@ ul {
     min-height: 200px;
     background-color: lightblue;
 }
-
+footer{
+    padding: 13px;
+    text-align: center;
+    min-height: 50px;
+}
