@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+<body>
+   <header>
+       <nav>
+           <div class="container">
+               <ul class="menu">
+               <li class="menu-item"><a href="#about">About me</a></li>
+               <li class="menu-item"><a href="#skills">Skills</a></li>
+               <li class="menu-item"><a href="#code">Code examples</a></li>
+               <li class="menu-item"><a href="#edu">Educaton</a></li>
+               <li class="menu-item"><a href="#en">English</a></li>
+               <li class="menu-item"><a href="#contacts">Contacts</a></li>
+            </ul>
+           </div>
+       </nav>
+   </header>
+   <section class="info">
+       <div class="container">
+           <div class= 'info_img'>
+               <h1> Zhiger Seitnur</h1>
+            <img src="img/cv-photo.jpg" alt="cv-photo">
+            </div>  
+       </div>
+    </section>
+    <section class="about"> 
+        <div class="container">
+            <h2 id="about">About me</h2>
+            <div class="about_text">
+                I want to take this course and become a front-end developer, I am ready to study and work hard for this. Worked as a teacher in college, I want to take this course and become a front-end developer, I am ready to study and work hard for this. worked as a teacher in a college, introduced network technologies.
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 id="skills">skills</h2>
+            <ul>
+                <li>HTML
+                </li>
+                <li>CSS
+                </li>
+                <li>Bootstrap
+                </li>
+
+                    
+                
+            </ul>
+            </div>
+    </section>
+     <section class="code">
+         <div class="container">
+            <h3 id="code">code example</h3>
+            <div class="code_wrapper">
+             <div class="code_example">
+                <div class="code_example_title">Palindrome</div>
+             <pre class="code_js">
+                function isPalindrome(line) {
+                    let toS = line.toString();
+                    let splitted = toS.split('');
+                    let reverse = [];
+                    for(let i = splitted.length -1; i >= 0; i--){
+                        reverse.push(splitted[i]); 
+                    }
+                    let toJoin = reverse.join('');
+                    if (toJoin == toS){
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+             </pre>
+            </div>
+            <div class="code_example">
+                <div class="code_example_title">factorial</div>
+                <pre class="code_js">
+                    function factorial(n){
+                    {
+                         throw new RangeError();
+                          }else if( n == 0 || n == 1 ){
+                         return 1;
+                         }else{
+                            for(let i = n - 1 ; i >= 1; i--){
+                                n = n * i;
+                                
+                            }
+                            return n;  
+                         }
+                        }</pre>
+            </div>
+            </div>
+         </div>
+     </section>
+  <section class="education">
+        <div class="container">
+            <h4 id="edu">education</h4>
+            <div class="education_descr">Bachelore of Engineering and Technology -- IITU(2015-2019)</div>
+        </div>
+
+     </section>
+     
+     <section class="english">
+        <div class="container">
+                <h5 id="en">English</h5>
+        </div>
+        <div class="english_descr">took English courses at Elemetary - Intermediate levels. I was a volunteer at the 2017 Winter Universiade and practiced English with foreign athletes there</div>
+    </section>
+
+    <section class="contacts">
+            <div class="container">
+                <h6 id="contacts">contacts</h6>
+                <ul>
+                    <li>Email:
+                       <a href="mailto:nukejanniger@gmail.com">nukejanniger@gmail.com</a> 
+                    </li>
+                    <li>Telegram:
+                        <a href="https://t.me/ZhigerSeitnur">ZhigerSeitnur</a>
+                    </li>
+            </ul>
+            </div>
+
+     </section>
+     <footer>
+       <div class="container">
+           <div class="fotter_wrapper">
+               <a href="https://github.com/zhigerisit">github</a>
+           <time>2021</time>
+        </div>
+       </div>
+   </footer>   
+</body>
+</html>
