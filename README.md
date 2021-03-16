@@ -1,2 +1,2 @@
 https://zhigerisit.github.io/rsschool-cv/cv
-https://zhigerisit.github.io/rsschool-cv/wildlife
+https://zhigerisit.github.io/rsschool-cv/cv/wildlife
